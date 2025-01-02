@@ -1,0 +1,36 @@
+baseURL = "https://ApricityZ.github.io/"
+languageCode = "en-us"
+title = "HengZhang's Log"
+theme = "PaperMod"
+
+[params]
+author = "Heng Zhang"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowDateUpdated = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowShareButtons = true
+
+[params.profileMode]
+enabled = true
+title = "HengZhang's Log"
+subtitle = "Personal Blog & Knowledge Base"
+imageUrl = "/images/profile.jpg"
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 3
