@@ -1,0 +1,25 @@
+#baseURL = 'https://example.org/'
+#languageCode = 'en-us'
+#title = 'My New Hugo Site'
+
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "HengZhang's Log"
+theme = "PaperMod"
+
+[params]
+author = "Heng Zhang"
+defaultTheme = "auto"
+showReadingTime = true
+showDateUpdated = true
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
