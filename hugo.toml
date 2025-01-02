@@ -2,6 +2,15 @@ baseURL = "https://ApricityZ.github.io/"
 languageCode = "en-us"
 title = "HengZhang's Log"
 theme = "PaperMod"
+hasCJKLanguage = true
+defaultContentLanguage = "en"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+[languages.en.params]
+languageAltTitle = "English"
 
 [params]
 author = "Heng Zhang"
